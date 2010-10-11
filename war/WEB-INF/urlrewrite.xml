@@ -3,6 +3,11 @@
 <urlrewrite>
 	<rule>
 		<from>^\/?$</from>
-		<to>/app/public/home</to>
+		<to>/web/public/home</to>
+	</rule>
+	
+	<rule>
+		<from>^\/exampleAjax(\/.*)?$</from>
+		<to>/web/exampleAjax$1</to>
 	</rule>
 </urlrewrite>

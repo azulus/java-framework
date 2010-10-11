@@ -9,8 +9,8 @@ import us.surrenderto.example.common.objects.Example;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
-@GWTRequestMapping("/example")
-@RemoteServiceRelativePath("../rpc/example")
+@GWTRequestMapping("/ajaxExample")
+@RemoteServiceRelativePath("../rpc/ajaxExample")
 public interface ExampleAjaxService extends RemoteService{
 
 	List<Example> getExamples();

@@ -13,8 +13,8 @@
           
 	<context:annotation-config />
 	<context:component-scan base-package="us.surrenderto" />
-	<import resource="classpath:springmvc-resteasy.xml" />
-	<bean class="org.gwtwidgets.server.spring.GWTHandler" />	
+	<bean class="org.gwtwidgets.server.spring.GWTHandler" />
+	<import resource="classpath:springmvc-resteasy.xml" />	
 	<aop:aspectj-autoproxy />
 
 	<bean id="viewResolver"
